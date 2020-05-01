@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+
+    <ImageView
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/banner1"
+        android:background="@drawable/adam_as"
+        android:scaleType="fitXY"
+      />
+
+
+
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/banner1">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kisah"
+                    android:textColor="#000"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/nama1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Nabi Adam A.S"
+                    android:textColor="#000"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/desk1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="kisade"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Mujizat"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mujizat2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="       Nabi Adam adalah nabi yang pertama diturunkan ke bumi. Kata Adam berasal dari Adim. Yaitu adimul artinya berada di permukaan bumi. Nama Adam erat kaitanya dengan bahan penciptaan. Adam merupakan nabi yang diciptakan dari tanah,yang berada di permukaan bumi.\n \n        Setelah mati, maka Adam dan keturunnya juga akan kembali lagi ke tanah. Akhirnya, wujud Nabi Adam menjadi sempurna. Setelah itu ruh ditiupkan, maka Allah menyampaikan sebuah amanah kepada para malaikat. Amanat tersebut berlaku untuk semua makhluk lain yang berada di dekat para malaikat.\n \n         Dalam amanat tersebut, dikatakan jika para malaikat harus bersujud kepada Nabi Adam sebagai suatu penghormatan. Mereka semua bersujud, namun makhluk Allah yang sombong yaitu iblis tidak mau bersujud kepada Nabi Adam Alaihissalam."
+                android:textColor="#000" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

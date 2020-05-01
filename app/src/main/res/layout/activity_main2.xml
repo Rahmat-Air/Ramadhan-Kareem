@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Puasa"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="340dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/puasa" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="  Pengertian puasa Ramadhan menurut syariat Islam adalah suatu amalan ibadah yang dilakukan dengan menahan diri dari segala sesuatu seperti makan, minum, perbuatan buruk maupun dari yang membatalkan puasa mulai dari terbitnya fajar hingga terbenamnya matahari yang disertai dengan niat karena Allah SWT, dengan syarat dan rukun tertentu.\n\n    Puasa dalam Islam juga sering disebut shaum yang merupakan salah satu ibadah yang telah dicontohkan oleh Rosululloh SAW.\n\n    Pengertian puasa Ramadhan selain menjaga hawa nafsu, juga wajib dilakukan oleh umat Islam. Hal ini sudah dijelaskan dalam firman Allah dalam Q.S. Al-Baqarah ayat 183 yaitu:\n \n يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِنْ قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ \nArtinya: Hai orang-orang yang beriman, diwajibkan atas kamu berpuasa sebagaimana diwajibkan atas orang-orang sebelum kamu agar kamu bertakwa.\n\n   Jadi firman Allah SWT di atas menjelaskan bahwa melaksanakan puasa Ramadhan adalah wajib hukumnya, di mana hal tersebut adalah bentuk pertanggungjawaban manusia kepada penciptanya secara langsung serta kegiatan yang menyangkut hablum minallah." />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="Sholat Thrawih"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="340dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/tarawih"
+                        tools:ignore="ContentDescription" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="    Salat tarawih adalah Salat yang dilakukan hanya pada bulan Ramadan, dan Salat tarawih ini dikerjakan beliau Nabi pada tanggal 23 Ramadan tahun kedua hijriyyah, namun pada masa itu beliau Nabi mengerjakan Salat tarawih tidak di masjid terus menerus, kadang di masjid, kadang mengerjakannya di rumah" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="Membaca Al-Qur'an"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="340dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="10dp">
+
+                    <ImageView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/baca"
+                        tools:ignore="ContentDescription" />
+
+                </androidx.cardview.widget.CardView>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+
+                    android:text="  Apa keutamaan atau pahala membaca al Quran di bulan suci Ramadhan?\n\n    Keutamaan membaca Al-Qur'an di bulan ramadhan kita mendapatkan pahala hingga 700X lipat\nSebagaimana Hadits Nabi Muhammad SAW yang diriwayatkan HR Muslim.\n\n“Semua amalan anak Adam akan dilipat gandakan (balasannya), satu kebaikan akan dibalas dengan 10 sampai 700 kali lipat. Allah Swt. berfirman: Kecuali puasa, sesungguhnya itu untuk-Ku, dan Aku yang langsung membalasnya. Hamba-Ku telah meninggalkan syahwat dan makanannya karena Aku.” (HR. Muslim)\n\nMembaca satu huruf Al-Qur’an akan memperoleh sepuluh kebaikan\n\nRasulullah SAW bersabda:\n\n“Barangsiapa yang membaca satu huruf dari kitab Allah, maka ia akan mendapatkan satu kebaikan dengan huruf itu, dan satu kebaikan akan dilipatgandakan menjadi sepuluh. Aku tidaklah mengatakan Alif Laam Miim itu satu huruf, tetapi alif satu huruf, lam satu huruf dan Mim satu huruf.” (HR. Tirmidzi)"/>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
